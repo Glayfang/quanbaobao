@@ -25,3 +25,239 @@ See /usr/include/servers/bootstrap_defs.h for the error codes.
 1516288608156	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
 1516288608161	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
 1516288608183	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+2018-01-18 23:34:30.407 plugin-container[5494:79680] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xb637, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1516369982712	geckodriver	INFO	Listening on 127.0.0.1:54578
+1516369983797	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1516369984330	Marionette	INFO	Enabled via --marionette
+2018-01-19 21:53:04.951 plugin-container[6371:333497] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7d3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1516369985822	Marionette	INFO	Listening on port 54587
+1516369985881	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516369985925	Marionette	DEBUG	Register listener.js for window 2147483649
+1516369985953	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1516369985973	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1516369985973	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1516369985981	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1516369986011	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+1516460666893	geckodriver	INFO	Listening on 127.0.0.1:62034
+1516460667956	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1516460668401	Marionette	INFO	Enabled via --marionette
+2018-01-20 23:04:29.039 plugin-container[8256:675599] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7f07, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1516460669931	Marionette	INFO	Listening on port 62043
+1516460669954	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516460669998	Marionette	DEBUG	Register listener.js for window 2147483649
+1516460670011	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1516460670043	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1516460670043	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1516460670051	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1516460670078	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+1516460670136	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///Applications/Firefox.app/Contents/Resources/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///Applications/Firefox.app/Contents/Resources/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+1516460756399	geckodriver	INFO	Listening on 127.0.0.1:62137
+1516460757457	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1516460757913	Marionette	INFO	Enabled via --marionette
+2018-01-20 23:05:58.545 plugin-container[8289:686207] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7e43, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1516460759409	Marionette	INFO	Listening on port 62146
+1516460759460	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516460759503	Marionette	DEBUG	Register listener.js for window 2147483649
+1516460759517	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1516460759539	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1516460759539	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1516460759546	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1516460759575	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+1516460759621	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///Applications/Firefox.app/Contents/Resources/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///Applications/Firefox.app/Contents/Resources/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+1516461261940	geckodriver	INFO	Listening on 127.0.0.1:62622
+1516461262995	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1516461263439	Marionette	INFO	Enabled via --marionette
+2018-01-20 23:14:24.084 plugin-container[8417:742333] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xaa03, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1516461264914	Marionette	INFO	Listening on port 62631
+1516461265000	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516461265045	Marionette	DEBUG	Register listener.js for window 2147483649
+1516461280613	geckodriver	INFO	Listening on 127.0.0.1:62707
+1516461281668	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1516461282106	Marionette	INFO	Enabled via --marionette
+2018-01-20 23:14:42.739 plugin-container[8429:744642] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7e3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1516461283563	Marionette	INFO	Listening on port 62716
+1516461283670	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516461283716	Marionette	DEBUG	Register listener.js for window 2147483649
+2018-01-20 23:15:10.348 plugin-container[8450:747897] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7d3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1516461338108	geckodriver	INFO	Listening on 127.0.0.1:62790
+1516461339165	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1516461339612	Marionette	INFO	Enabled via --marionette
+2018-01-20 23:15:40.244 plugin-container[8463:751331] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x813f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1516461341080	Marionette	INFO	Listening on port 62799
+1516461341166	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516461341211	Marionette	DEBUG	Register listener.js for window 2147483649
+1516461516213	geckodriver	INFO	Listening on 127.0.0.1:62950
+1516461517271	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1516461517733	Marionette	INFO	Enabled via --marionette
+2018-01-20 23:18:38.366 plugin-container[8511:770804] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8603, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1516461519210	Marionette	INFO	Listening on port 62959
+1516461519272	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516461519315	Marionette	DEBUG	Register listener.js for window 2147483649
+1516461519333	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1516461519366	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1516461519366	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1516461519374	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1516461519402	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+1516461519448	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///Applications/Firefox.app/Contents/Resources/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///Applications/Firefox.app/Contents/Resources/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+1516461553483	geckodriver	INFO	Listening on 127.0.0.1:63031
+1516461554540	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1516461554975	Marionette	INFO	Enabled via --marionette
+2018-01-20 23:19:15.610 plugin-container[8534:775434] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x833f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1516461556452	Marionette	INFO	Listening on port 63040
+1516461556539	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516461556584	Marionette	DEBUG	Register listener.js for window 2147483649
+1516461556599	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1516461556617	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1516461556618	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1516461556625	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1516461556653	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+1516461556701	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///Applications/Firefox.app/Contents/Resources/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///Applications/Firefox.app/Contents/Resources/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+1516461598779	geckodriver	INFO	Listening on 127.0.0.1:63123
+1516461599839	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1516461600283	Marionette	INFO	Enabled via --marionette
+2018-01-20 23:20:00.908 plugin-container[8559:780943] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7f03, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1516461601765	Marionette	INFO	Listening on port 63132
+1516461601848	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516461601893	Marionette	DEBUG	Register listener.js for window 2147483649
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1516461618825	geckodriver	INFO	Listening on 127.0.0.1:63195
+1516461619883	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1516461620314	Marionette	INFO	Enabled via --marionette
+2018-01-20 23:20:20.946 plugin-container[8571:783375] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7b3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1516461621790	Marionette	INFO	Listening on port 63204
+1516461621879	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516461621927	Marionette	DEBUG	Register listener.js for window 2147483649
+1516461995144	geckodriver	INFO	Listening on 127.0.0.1:63773
+1516461996200	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1516461996641	Marionette	INFO	Enabled via --marionette
+2018-01-20 23:26:37.279 plugin-container[8655:825336] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7c43, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1516461998124	Marionette	INFO	Listening on port 63782
+1516461998193	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516461998239	Marionette	DEBUG	Register listener.js for window 2147483649
+1516462133861	geckodriver	INFO	Listening on 127.0.0.1:63904
+1516462134919	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1516462135381	Marionette	INFO	Enabled via --marionette
+2018-01-20 23:28:56.021 plugin-container[8691:840582] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x803f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1516462136860	Marionette	INFO	Listening on port 63913
+1516462136911	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516462136954	Marionette	DEBUG	Register listener.js for window 2147483649
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+2018-01-20 23:29:06.596 plugin-container[8698:841892] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x803b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1516462157423	geckodriver	INFO	Listening on 127.0.0.1:63985
+1516462157525	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1516462158376	Marionette	INFO	Enabled via --marionette
+2018-01-20 23:29:19.442 plugin-container[8706:843442] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x823f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1516462160952	Marionette	INFO	Listening on port 63992
+1516462161021	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516462161117	Marionette	DEBUG	Register listener.js for window 2147483649
+1516462396512	geckodriver	INFO	Listening on 127.0.0.1:64272
+1516462397565	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1516462398008	Marionette	INFO	Enabled via --marionette
+2018-01-20 23:33:18.637 plugin-container[8777:870223] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7a03, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1516462399524	Marionette	INFO	Listening on port 64281
+1516462399561	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516462399606	Marionette	DEBUG	Register listener.js for window 2147483649
+1516462399617	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1516462399644	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1516462399644	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1516462399652	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1516462399680	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+1516462399723	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///Applications/Firefox.app/Contents/Resources/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///Applications/Firefox.app/Contents/Resources/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+1516462492348	geckodriver	INFO	Listening on 127.0.0.1:64555
+1516462493406	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1516462493847	Marionette	INFO	Enabled via --marionette
+2018-01-20 23:34:54.492 plugin-container[8805:881542] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7c3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1516462495319	Marionette	INFO	Listening on port 64564
+1516462495416	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516462495459	Marionette	DEBUG	Register listener.js for window 2147483649
+1516462495488	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1516462495506	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1516462495506	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1516462495513	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1516462495545	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+1516462495602	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///Applications/Firefox.app/Contents/Resources/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///Applications/Firefox.app/Contents/Resources/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+1516462527632	geckodriver	INFO	Listening on 127.0.0.1:64634
+1516462528687	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1516462529140	Marionette	INFO	Enabled via --marionette
+2018-01-20 23:35:29.773 plugin-container[8823:885674] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x843b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1516462530620	Marionette	INFO	Listening on port 64643
+1516462530684	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516462530728	Marionette	DEBUG	Register listener.js for window 2147483649
+1516462530760	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1516462530776	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1516462530776	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1516462530784	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1516462530817	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+1516462530870	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///Applications/Firefox.app/Contents/Resources/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///Applications/Firefox.app/Contents/Resources/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+1516462689801	geckodriver	INFO	Listening on 127.0.0.1:64888
+1516462690857	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1516462691300	Marionette	INFO	Enabled via --marionette
+2018-01-20 23:38:11.936 plugin-container[8870:904448] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7f3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1516462692777	Marionette	INFO	Listening on port 64899
+1516462692853	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516462692898	Marionette	DEBUG	Register listener.js for window 2147483649
+1516462692933	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1516462692947	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1516462692948	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1516462692954	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1516462692982	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+1516462717914	geckodriver	INFO	Listening on 127.0.0.1:64979
+1516462718969	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1516462719416	Marionette	INFO	Enabled via --marionette
+2018-01-20 23:38:40.055 plugin-container[8882:907902] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7e3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1516462720929	Marionette	INFO	Listening on port 64988
+1516462720966	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516462721015	Marionette	DEBUG	Register listener.js for window 2147483649
+1516462721034	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1516462721053	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1516462721053	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1516462721061	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1516462721089	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1516462937451	geckodriver	INFO	Listening on 127.0.0.1:65152
+1516462938510	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1516462938951	Marionette	INFO	Enabled via --marionette
+2018-01-20 23:42:19.583 plugin-container[8950:932584] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x833f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1516462940430	Marionette	INFO	Listening on port 65161
+1516462940516	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516462940563	Marionette	DEBUG	Register listener.js for window 2147483649
+1516463195828	geckodriver	INFO	Listening on 127.0.0.1:65338
+1516463196880	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1516463197322	Marionette	INFO	Enabled via --marionette
+2018-01-20 23:46:37.976 plugin-container[9026:961349] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x763f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1516463198806	Marionette	INFO	Listening on port 65347
+1516463198885	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516463198930	Marionette	DEBUG	Register listener.js for window 2147483649
+1516463198943	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1516463198968	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1516463198968	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1516463198974	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1516463199005	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+1516463199061	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///Applications/Firefox.app/Contents/Resources/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///Applications/Firefox.app/Contents/Resources/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
